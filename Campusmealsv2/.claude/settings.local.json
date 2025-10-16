@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/sarpakar/Desktop/NYU/campusmealsv2/**)",
+      "Bash(plutil:*)",
+      "Bash(xcrun simctl privacy:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "WebSearch",
+      "WebFetch(domain:www.tiktok.com)",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:www.yelp.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

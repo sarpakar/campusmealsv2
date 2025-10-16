@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(xcodebuild:*)",
+      "Read(//Users/sarpakar/Desktop/**)",
+      "Bash(open:*)",
+      "WebFetch(domain:www.traderjoes.com)",
+      "WebSearch",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

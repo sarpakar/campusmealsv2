@@ -1,0 +1,24 @@
+//
+//  APIKey.swift
+//  Campusmealsv2
+//
+//  Created by Claude on 04/10/2025.
+//
+
+import Foundation
+
+enum APIKey {
+    static var `default`: String {
+        guard let filePath = Bundle.main.path(forResource: "GenerativeAI-Info", ofType: "plist") else {
+            fatalError("Couldn't find file 'GenerativeAI-Info.plist'.")
+        }
+        let plist = NSDictionary(contentsOfFile: filePath)
+        guard let value = plist?.object(forKey: "API_KEY") as? String else {
+            fatalError("Couldn't find key 'API_KEY' in 'GenerativeAI-Info.plist'.")
+        }
+        if value.starts(with: "YOUR_") {
+            fatalError("Go to https://aistudio.google.com/app/apikey to get an API key.")
+        }
+        return value
+    }
+}

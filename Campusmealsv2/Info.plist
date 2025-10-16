@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-1018931237903-ios-4068848fa30858904b7f7a</string>
+			</array>
+		</dict>
+	</array>
+
+	<!-- URL Schemes that app can query -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>snssdk1233</string>
+		<string>tiktok</string>
+		<string>musically</string>
+		<string>instagram</string>
+		<string>youtube</string>
+		<string>comgooglemaps</string>
+		<string>citymapper</string>
+	</array>
+
+	<!-- Privacy Permissions -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library so you can share food photos with your friends.</string>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need permission to save photos to your library.</string>
+
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera so you can take photos of your meals.</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to help you discover nearby restaurants and tag your food posts.</string>
+
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to help you discover nearby restaurants and tag your food posts.</string>
+</dict>
+</plist>

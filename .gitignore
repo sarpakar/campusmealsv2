@@ -1,0 +1,65 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+.DS_Store
+*.swp
+*.lock
+
+# Firebase secrets (DO NOT COMMIT)
+GoogleService-Info.plist
+campusmeals-firebase-key.json
+*-firebase-key.json
+
+# Environment files (DO NOT COMMIT)
+.env
+.env.local
+.env.production
+
+# API Keys (DO NOT COMMIT)
+**/apikey.txt
+**/secrets.json
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Build artifacts
+build/
+dist/
+*.app
+*.ipa
+
+# SPM
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.podspec
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Testing
+*.log
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
