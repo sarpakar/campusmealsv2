@@ -1,6 +1,6 @@
 # Campus Meals - NYU Food Discovery & Social Platform
 
-![Campus Meals Home Screen](Campusmealsv2/assets/homescreen.png)
+<img src="Campusmealsv2/assets/homescreen.png" alt="Campus Meals Home Screen" width="300">
 
 ## Problem Statement
 NYU students struggle to discover nearby restaurants, track their eating habits, and share food experiences with friends. Existing apps like Yelp lack social features, while Instagram lacks location-based discovery. Campus Meals solves this by combining interactive map-based restaurant discovery, Instagram-style social feed for sharing meals, AI-powered food analysis, and personal nutrition tracking.
