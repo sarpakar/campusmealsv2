@@ -12,7 +12,7 @@ import SwiftUI
 class VendorImageService {
     static let shared = VendorImageService()
 
-    private let apiKey = "AIzaSyB6GvIr0em_xyPExHyz3T4G9gh0cK-fNts"
+    private let apiKey = "YOUR_GOOGLE_API_KEY_HERE"
     private let maxWidth = 800
 
     private init() {}

@@ -16,8 +16,8 @@ class GoogleSearchService {
 
     // MARK: - Configuration
 
-    // You already have this Google API Key
-    private let apiKey = "AIzaSyB6GvIr0em_xyPExHyz3T4G9gh0cK-fNts"
+    // TODO: Add your Google API Key to GenerativeAI-Info.plist
+    private let apiKey = "YOUR_GOOGLE_API_KEY_HERE"
 
     // Search Engine ID - Configured and ready!
     private let searchEngineID = "8195c0dbb07694294"

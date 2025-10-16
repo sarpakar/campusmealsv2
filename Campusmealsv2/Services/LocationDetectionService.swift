@@ -25,7 +25,7 @@ class LocationDetectionService: ObservableObject {
     // MARK: - API Key Helper
 
     private func getGoogleMapsAPIKey() -> String {
-        return "AIzaSyB6GvIr0em_xyPExHyz3T4G9gh0cK-fNts"
+        return "YOUR_GOOGLE_API_KEY_HERE"
     }
 
     // MARK: - Main Detection Function

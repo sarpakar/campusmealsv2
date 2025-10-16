@@ -12,7 +12,7 @@ import CoreLocation
 class GooglePlacesService: ObservableObject {
     static let shared = GooglePlacesService()
 
-    private let apiKey = "AIzaSyB6GvIr0em_xyPExHyz3T4G9gh0cK-fNts"
+    private let apiKey = "YOUR_GOOGLE_API_KEY_HERE"
     private let baseURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
     @Published var vendors: [Vendor] = []

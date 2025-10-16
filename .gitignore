@@ -11,6 +11,7 @@ DerivedData/
 GoogleService-Info.plist
 campusmeals-firebase-key.json
 *-firebase-key.json
+GenerativeAI-Info.plist
 
 # Environment files (DO NOT COMMIT)
 .env

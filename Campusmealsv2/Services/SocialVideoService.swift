@@ -234,7 +234,7 @@ class SocialVideoService {
     /// Endpoint: https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics
     private func fetchYouTubeVideo(url: URL) async throws -> SocialVideo {
         let videoId = extractYouTubeVideoId(from: url)
-        let apiKey = "AIzaSyB6GvIr0em_xyPExHyz3T4G9gh0cK-fNts" // Your existing Google API key
+        let apiKey = "YOUR_GOOGLE_API_KEY_HERE" // TODO: Add your Google API key
 
         // Build YouTube Data API URL
         var components = URLComponents(string: "https://www.googleapis.com/youtube/v3/videos")!
